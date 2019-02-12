@@ -1,0 +1,18 @@
+// Menu Button
+.menu-btn {
+  position: absolute; // always in right corner
+  z-index: 3; // so its always on top
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  @include easeOut;
+
+  // creating the hamburger menu
+  .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #fff;
+    @include easeOut;
+  }
+}
