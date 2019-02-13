@@ -210,7 +210,8 @@ main {
   grid-gap: 0.7rem; }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid;
+    min-height: 232px; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #eece1a;
