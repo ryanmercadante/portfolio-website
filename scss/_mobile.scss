@@ -4,6 +4,10 @@
 
 // Desktops and Laptops
 @include mediaLg {
+  #about {
+    max-width: 1350px;
+    margin: auto;
+  }
 }
 
 // Tables and Small Laptops
@@ -44,6 +48,16 @@
       width: 150px;
       height: 150px;
     }
+  }
+
+  .about-info {
+    grid-template-areas: "bioimage" "bio" "skill1" "skill2" "skill3";
+    grid-template-columns: 1fr;
+  }
+
+  .skill {
+    width: 60vw;
+    margin: auto;
   }
 }
 
