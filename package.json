@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/ryanmercadante/portfolio-website/issues"
   },
-  "homepage": "https://github.com/ryanmercadante/portfolio-website#readme",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
