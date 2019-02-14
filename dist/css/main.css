@@ -260,21 +260,21 @@ main {
   color: #fff;
   height: 60px; }
 
-@media screen and (min-width: 1171px) {
+@media screen and (min-width: 1751px) {
   #about {
     max-width: 1350px;
     margin: auto; }
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
-@media screen and (min-width: 769px) and (max-width: 1170px) {
+@media screen and (min-width: 951px) and (max-width: 1750px) {
   #about {
     max-width: 1350px;
     margin: auto; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   main {
     align-items: center;
     text-align: center; }
