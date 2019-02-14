@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A portfolio website to showcase skills and projects",
   "main": "index.js",
+  "homepage": "https://ryanmercadante.github.io/portfolio-website",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/ryanmercadante/portfolio-website#readme",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
